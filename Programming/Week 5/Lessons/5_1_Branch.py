@@ -3,7 +3,7 @@ def odd_test(x):
         return True
     else:
         return False
-    pass
+    
 
 if __name__ == "__main__":
     print(odd_test(3))     # should output True
