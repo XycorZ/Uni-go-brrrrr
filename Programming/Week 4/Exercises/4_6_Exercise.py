@@ -1,8 +1,8 @@
 # Do not touch this line
 input_list = list(input("Please enter a list of strings separated by a comma.\ne.g. one,two,three,four,five\n\n").split(','))
 
-min_index = 1
-max_index = 1
+min_index = 0
+max_index = 0
 total = 0
 
 i = 0
