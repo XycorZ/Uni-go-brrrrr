@@ -4,6 +4,7 @@ Exercise 1:
 -12 = 10100
 
 Exercise 2:
+-15 / 2
 1001 - Quotient
 1111 - Remainder 
 
