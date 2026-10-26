@@ -1,0 +1,136 @@
+Week 5 Session 2 Labs:
+
+Exercise 1:
+-12 = 10100
+
+Exercise 2:
+1001 - Quotient
+1111 - Remainder 
+
+Exercise 3:
+(A AND B AND C)
+A B C Output 
+0 0 0   0
+0 0 1   0
+0 1 0   0
+0 1 1   0
+1 0 0   0
+1 0 1   0
+1 1 0   0
+1 1 1   1
+
+Exercise 4:
+(A OR B OR C)
+A B C Output 
+0 0 0   0
+0 0 1   1
+0 1 0   1
+0 1 1   1
+1 0 0   1
+1 0 1   1
+1 1 0   1
+1 1 1   1
+
+Exercise 5:
+(A NAND B NAND C)
+A B C Output 
+0 0 0   1
+0 0 1   1
+0 1 0   1
+0 1 1   1
+1 0 0   1
+1 0 1   1
+1 1 0   1
+1 1 1   0
+
+Exercise 6:
+(A NOR B NOR C)
+A B C Output 
+0 0 0   1
+0 0 1   0
+0 1 0   0
+0 1 1   0
+1 0 0   0
+1 0 1   0
+1 1 0   0
+1 1 1   0
+
+Exercise 7:
+(A XOR B XOR C)
+A B C Output 
+0 0 0   0
+0 0 1   1
+0 1 0   1
+0 1 1   1
+1 0 0   1
+1 0 1   1
+1 1 0   1
+1 1 1   0
+
+Exercise 8:
+(A XNOR B XNOR C)
+A B C Output 
+0 0 0   1
+0 0 1   0
+0 1 0   0
+0 1 1   0
+1 0 0   0
+1 0 1   0
+1 1 0   0
+1 1 1   1
+
+
+Week 6 Session 1 Labs:
+Exercise 1:
+F(A,B,C) = (A.B) + C'
+
+(A AND B) or not C
+A B C Output
+0 0 0   1
+0 0 1   0
+0 1 0   1
+0 1 1   0
+1 0 0   1
+1 0 1   0
+1 1 0   1
+1 1 1   1
+
+Exercise 2:
+SOP:
+
+A B C Output
+0 0 0   0
+0 0 1   1  (A'.B'.C)
+0 1 0   1  (A'.B.C')
+0 1 1   0  
+1 0 0   1  (A.B'.C')
+1 0 1   0
+1 1 0   0
+1 1 1   1 (A.B.C)
+
+(A'.B'.C) + (A'.B.C') + (A.B'.C') + (A.B.C)
+
+
+Exercise 3:
+POS:
+
+A B C Output
+0 0 0   0  (A+B+C)
+0 0 1   1  
+0 1 0   1  
+0 1 1   0  (A+B'+C')
+1 0 0   1  
+1 0 1   0  (A'+B+C')
+1 1 0   0  (A'+B'+C)
+1 1 1   1 
+
+(A+B+C) . (A+B'+C') . (A'+B+C') . (A'+B'+C)
+
+Exercise 4:
+Q = (A.B) + ((B+C) . (B.C))
+
+Exercise 5:
+
+F = (B.C)' + A + (A+C)'
+
+Some paint bs ig.
